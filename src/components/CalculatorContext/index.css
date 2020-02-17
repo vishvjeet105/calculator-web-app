@@ -1,0 +1,43 @@
+.button-common {
+	z-index: 1;
+	border: 1px solid #fff;
+	width: 100%;
+	padding: 20px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.button-common:focus {
+	outline: none;
+}
+.operator {
+	display: inline-flex;
+	flex-grow: 1;
+	flex-basis: 25%;
+	padding: 8px;
+}
+.equal-operator {
+	flex-grow: 8;
+	width: 100%;
+	flex-basis: 50%;
+}
+.equal-operator > .button-common {
+	border-radius: 30px;
+}
+.last-colum-btn {
+	color: #fff;
+	background-color: #06bcf9;
+	opacity: 0.6;
+	border: 1px solid #06bcf9;
+}
+.text-common {
+	color: #00bfff;
+	font-size: 16px;
+}
+/* .text-common-last-colum-btn,
+.text-common {
+	font-size: 16px;
+} */
+.text-common-last-colum-btn {
+	color: #fff;
+	font-size: 20px;
+}
