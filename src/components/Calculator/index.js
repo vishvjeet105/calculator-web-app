@@ -9,7 +9,6 @@ class Calculator extends React.Component {
 		userEntry: '0'
 	};
 	handleClick = userSelectedValue => {
-		console.log('userSelectValue', userSelectedValue);
 		this.setState(calculationUtility(userSelectedValue, this.state));
 	};
 	render() {
